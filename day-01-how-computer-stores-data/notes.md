@@ -35,5 +35,5 @@ To solve the problem of adding two user-provided numbers, the logic follows thes
 # If you want to run without typing each time, use:
 num1 = 5
 num2 = 3
-print("Sum is:", num1 + num2)
+print("Sum is:", num1 + num2) # Sum is: 8
 ```
