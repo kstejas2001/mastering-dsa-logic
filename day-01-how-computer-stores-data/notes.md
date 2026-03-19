@@ -1,39 +1,62 @@
-# Day 01 — How a Computer Stores Data
+# Day 01 Notes
 
-## Today I Learned:
-* **Memory as Storage:** Computers use **RAM** like a massive warehouse of labeled boxes.
-* **Variables:** These are the **labels** on the boxes. They give us a way to find and use data stored in memory.
-* **Data Types:** Not every box holds the same thing. Some hold integers (numbers), some hold strings (text), and others hold booleans (True/False).
-* **The Workflow:** 
-    1. **Assignment:** Putting a value into the box (`x = 10`).
-    2. **Expression:** Performing "math" or logic on those values (`x + 5`).
-    3. **Output:** Bringing the result out of the box to show the user (`print`).
+## Topic: How a Computer Stores Data
 
----
+### What I learned today
+A computer stores information using **variables**.
 
-## The Real-World Analogy
-| Component | Analogy | Function |
-| :--- | :--- | :--- |
-| **RAM** | The Warehouse | Where all the boxes are kept. |
-| **Variable** | The Label | Tells the computer *which* box to open. |
-| **Value** | The Item | The actual data inside the box. |
-| **CPU** | The Worker | The one who moves items and calculates results. |
+A variable is like a **box** with a name.
+We put a value inside the box, and later we can use that value.
 
----
+Example:
+- `a = 5` means a box named `a` stores the value `5`
+- `b = 3` means a box named `b` stores the value `3`
+- `c = a + b` means add the values inside `a` and `b`, then store the result in `c`
 
-## Logic & Pseudo-code: Adding Two Numbers
-To solve the problem of adding two user-provided numbers, the logic follows these steps:
-1. **Input:** Capture text from the user.
-2. **Cast:** Convert that text (string) into a number (integer).
-3. **Process:** Add the two integers together.
-4. **Output:** Display the final sum.
+### Important words
+- **Data**: information or value
+- **Variable**: a named place to store data
+- **Value**: the actual data inside a variable
+- **Assignment**: putting a value into a variable using `=`
+- **Operator**: a symbol that does work, like `+` for addition
 
----
+### What each symbol means
+- `=` means store the value on the right side into the variable on the left side
+- `+` means add two values
+- `print()` means show the output on the screen
 
-## Python Implementation (simpler)
-```python
-# If you want to run without typing each time, use:
-num1 = 5
-num2 = 3
-print("Sum is:", num1 + num2) # Sum is: 8
-```
+### Example
+If we write:
+- `a = 5`
+- `b = 3`
+- `c = a + b`
+
+Then:
+- `a` contains `5`
+- `b` contains `3`
+- `c` contains `8`
+
+### Output
+The result will be:
+8
+
+### My understanding
+A computer does not think like humans.
+It follows instructions one by one.
+It stores data in variables and performs operations on them.
+
+### Things I should remember
+- A variable is not the value itself.
+- A variable is the name of a place where the value is stored.
+- `=` is not “equal to” in programming here.
+- `=` means “assign this value”.
+
+### Confusion / questions
+- What exactly happens inside memory?
+- How does the computer know where a variable is stored?
+- What is the difference between storing and printing?
+
+### Tomorrow I will learn
+- input from user
+- more about variables
+- simple program writing
