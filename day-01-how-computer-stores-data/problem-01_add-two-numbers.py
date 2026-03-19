@@ -1,15 +1,15 @@
-# Problem: add two numbers entered by the user
+# =============================================
+# File     : problem-01_add-two-numbers.py
+# Day      : 01 — How a Computer Stores Data
+# Topic    : Variables & Data Types
+# =============================================
 
-# 1) read the input from the user (input() return text)
-num1_text = input("Enter first number: ")
-num2_text = input("Enter second number: ")
+# Step 1: store values
+a = 5
+b = 3
 
-# 2) convert text into integer numbers
-num1 = int(num1_text)
-num2 = int(num2_text)
+# Step 2: add values
+c = a + b
 
-# 3) compute sum
-result = num1 + num2
-
-# 4) print the result
-print("Sum is: ", result)
+# Step 3: print result
+print(c)
