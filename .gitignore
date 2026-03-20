@@ -1,0 +1,8 @@
+*.class
+*.exe
+a.out
+output
+bin/
+build/
+__pycache__/
+*.pyc
